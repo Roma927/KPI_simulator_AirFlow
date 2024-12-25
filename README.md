@@ -106,19 +106,7 @@ Access the applications:
 ### Calculate KPI
 - URL: `/api/calculate/`
 - Method: POST
-- Request Body:
-  ```json
-  {
-    "value": 100,
-    "kpi_id": 1
-  }
-  ```
-- Response:
-  ```json
-  {
-    "result": 150
-  }
-  ```
+
 
 ## Project Structure
 ```
