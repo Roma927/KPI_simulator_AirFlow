@@ -28,7 +28,7 @@ KPI Simulator is a Django-based application that dynamically generates Airflow D
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/kpi-simulator.git
+git clone https://github.com/Roma927/Kpi_simulator_AirFlow
 cd kpi-simulator
 ```
 
@@ -43,19 +43,14 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-3. Install required packages:
-```bash
-pip install -r requirements.txt
-```
-
-4. Configure Django:
+3. Configure Django:
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 python manage.py createsuperuser
 ```
 
-5. Configure Airflow:
+4. Configure Airflow:
 ```bash
 export AIRFLOW_HOME=./airflow  # Linux/MacOS
 set AIRFLOW_HOME=./airflow    # Windows
